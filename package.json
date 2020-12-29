@@ -1,0 +1,24 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "build": "webpack",
+  "description": "A To-Do List app based on JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xwaxes01/To-Do-List.git"
+  },
+  "author": "Kenneth Murerwa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xwaxes01/To-Do-List/issues"
+  },
+  "homepage": "https://github.com/xwaxes01/To-Do-List#readme",
+  "devDependencies": {
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0"
+  }
+}

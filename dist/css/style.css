@@ -1,0 +1,28 @@
+:root {
+    --color-hover: cyan;
+    --color-text: #ddd; 
+    --color-primary: #161b22;
+    --color-primary-dark: #06090f;
+    --color-secondary: #131313;
+}
+
+body {
+    margin: 0%;
+    color: var(--color-text);
+    background-color: var(--color-primary)
+}
+
+.page-title {
+    padding: 20px;
+}
+
+.list-of-todos {
+    background-color: var(--color-primary-dark);
+    min-height: 80vh;
+    padding: 15px;
+}
+
+.description {
+    background-color: var(--color-secondary);
+    min-height: 80vh;
+}
