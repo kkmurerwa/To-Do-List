@@ -1,7 +1,7 @@
-import { notes } from './note_manager'
+import { getTodos, addTodo } from './note_manager'
 
 
 
 window.onload = function (){
-    notes()
+    getTodos()
 }

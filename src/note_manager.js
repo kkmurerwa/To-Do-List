@@ -12,6 +12,10 @@ function Note(title, description){
     this.Description = description
 }
 
-export function notes (){
-    console.log("Running notes funtion")
+export function getTodos (){
+    console.log("Getting todos")
+}
+
+export function addTodo (){
+    console.log("Creating new todo")
 }

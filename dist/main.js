@@ -1,1 +1,1 @@
-(()=>{"use strict";window.onload=function(){console.log("Running notes funtion")}})();
+(()=>{"use strict";window.onload=function(){console.log("Getting todos")}})();
