@@ -1,7 +1,21 @@
-import { getTodos, addTodo } from './note_manager'
+import { getTodos, addTodo, createTestTodos } from './note_manager'
+import { createNoteListWindow, displayTodos } from './ui_manager'
 
 
 
 window.onload = function (){
-    getTodos()
+    // Create notelist DOM elements
+    createNoteListWindow()
+
+    // Create test todos
+    createTestTodos()
+
+    // Get todos
+    let todos = getTodos()
+
+    // Display todos
+    displayTodos()
+
+    // Log todos
+    console.table(todos)
 }

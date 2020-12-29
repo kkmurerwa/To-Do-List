@@ -18,17 +18,59 @@ body {
 
 .list-of-todos {
     background-color: var(--color-primary-dark);
-    min-height: 80vh;
+    height: 80vh;
     padding: 15px;
     text-align: center;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: var(--color-primary-dark);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    -webkit-border-radius: 1ex;
+    border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+    background: var(--color-primary-dark);
 }
 
 .add-todo-button {
     width: 100%;
 }
 
+.todo-item {
+    display: block;
+    text-align: left;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: var(--color-primary);
+    border-radius: 5px;
+}
+
+.todo-item:hover {
+    cursor: pointer;
+}
+
 .description {
     background-color: var(--color-secondary);
     min-height: 80vh;
-    padding: 15px;
+}
+
+.row {
+    padding-top: 10px;
+}
+
+.todo-title {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.form-check {
+    margin-left: 20px;
 }
