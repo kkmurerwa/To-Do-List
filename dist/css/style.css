@@ -13,12 +13,13 @@ body {
 }
 
 .page-title {
-    padding: 20px;
+    height: 10vh;
+    padding-top: 10px;
 }
 
 .list-of-todos {
     background-color: var(--color-primary-dark);
-    height: 80vh;
+    height: 90vh;
     padding: 15px;
     text-align: center;
     overflow-y: scroll;
@@ -66,11 +67,33 @@ body {
     padding-top: 10px;
 }
 
+
+
 .todo-title {
     text-decoration: underline;
     text-align: center;
+    background-color: var(--color-secondary);
+    border: 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--color-text);
+}
+
+.todo-text {
+    background-color: var(--color-secondary);
+    border: solid var(--color-text) 1px;
+    font-weight: bold;
+    color: var(--color-text);
+}
+
+.options-button {
+    width: 40%;
 }
 
 .form-check {
     margin-left: 20px;
+}
+
+.check-list-container {
+    display: block;
 }
